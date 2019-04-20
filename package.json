@@ -8,10 +8,12 @@
   "scripts": {
     "build": "tsc",
     "lint": "eslint --format unix .",
-    "format": "prettier --write *"
+    "format": "prettier --write *",
+    "pack": "bestzip focused-element.zip manifest.json lib/* icons/*"
   },
   "devDependencies": {
     "@types/chrome": "0.0.83",
+    "bestzip": "^2.1.2",
     "eslint": "^5.16.0",
     "eslint-config-prettier": "^4.1.0",
     "husky": "^1.3.1",

@@ -1,4 +1,6 @@
 chrome.runtime.onInstalled.addListener(() => {
+  "use strict";
+
   chrome.browserAction.onClicked.addListener(tab => {
     chrome.browserAction.getTitle({ tabId: tab.id }, title => {
       if (!tab.id) {

@@ -1,4 +1,7 @@
+// eslint-disable-next-line func-names
 (function() {
+  "use strict";
+
   /** @type {Element | null} */
   let lastFocusedElement = null;
 
@@ -15,7 +18,7 @@
   chrome.runtime.sendMessage({ action: "enabled" });
 
   chrome.runtime.onMessage.addListener(function disable(request) {
-    if (request.action == "disable") {
+    if (request.action === "disable") {
       clearInterval(logId);
       console.log("Focused element is disabled");
       chrome.runtime.sendMessage({ action: "disabled" });

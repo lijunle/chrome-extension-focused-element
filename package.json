@@ -7,14 +7,35 @@
   },
   "scripts": {
     "build": "tsc",
+    "lint": "eslint --format unix .",
     "format": "prettier --write *"
   },
   "devDependencies": {
     "@types/chrome": "0.0.83",
+    "eslint": "^5.16.0",
+    "eslint-config-prettier": "^4.1.0",
     "husky": "^1.3.1",
     "prettier": "^1.17.0",
     "pretty-quick": "^1.10.0",
     "typescript": "^3.4.4"
+  },
+  "eslintConfig": {
+    "extends": [
+      "eslint:all",
+      "prettier"
+    ],
+    "env": {
+      "es6": true,
+      "browser": true
+    },
+    "globals": {
+      "chrome": "readonly"
+    },
+    "rules": {
+      "max-lines-per-function": "off",
+      "no-console": "off",
+      "sort-keys": "off"
+    }
   },
   "husky": {
     "hooks": {

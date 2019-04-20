@@ -1,0 +1,11 @@
+language: node_js
+
+script:
+  - npm run build
+  - npm run lint
+  - npm run pack
+
+addons:
+  artifacts:
+    paths:
+      - focused-element.zip

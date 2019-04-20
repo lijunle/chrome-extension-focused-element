@@ -1,5 +1,7 @@
 (function() {
-  let lastFocusedElement = undefined;
+  /** @type {Element | null} */
+  let lastFocusedElement = null;
+
   const logId = setInterval(() => {
     const focusedElement = document.activeElement;
     if (focusedElement !== lastFocusedElement) {

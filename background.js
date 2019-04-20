@@ -1,6 +1,10 @@
 chrome.runtime.onInstalled.addListener(() => {
   chrome.browserAction.onClicked.addListener(tab => {
     chrome.browserAction.getTitle({ tabId: tab.id }, title => {
+      if (!tab.id) {
+        return;
+      }
+
       if (title === "Enable") {
         console.log("Enable content script");
         chrome.tabs.executeScript({

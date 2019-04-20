@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "Focused Element",
   "description": "Continuously show the current focused element in console.",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "author": "Junle Li",
   "icons": {
     "16": "icons/active-16.png",
@@ -21,7 +21,7 @@
   },
   "permissions": ["activeTab"],
   "background": {
-    "scripts": ["background.js"],
+    "scripts": ["lib/background.js"],
     "persistent": false
   }
 }

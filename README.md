@@ -9,6 +9,16 @@ This is a Chrome extension to continuously show the current focused element in c
 
 The [Focused Element](https://chrome.google.com/webstore/detail/focused-element/elaccagjpdmjkcjogbdmcpcplfinifbh/related) extension can be installed from Chrome web store.
 
+## Contribute
+
+1. Clone this repository.
+2. Run `npm install`.
+3. In browser extension page, load unpack and choose this project folder.
+4. Make sure the following scripts are passed.
+   - `npm run build`
+   - `npm run lint`
+   - `npm run format`
+
 ## License
 
-MIT.
+MIT License.

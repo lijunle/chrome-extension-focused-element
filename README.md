@@ -3,7 +3,7 @@
 [![Chrome Web Store](https://img.shields.io/badge/chrome%20web%20store-focused--element-green.svg)](https://chrome.google.com/webstore/detail/focused-element/elaccagjpdmjkcjogbdmcpcplfinifbh/related)
 [![Build Status](https://travis-ci.com/lijunle/chrome-extension-focused-element.svg?branch=master)](https://travis-ci.com/lijunle/chrome-extension-focused-element)
 
-This is a Chrome extension to continuously show the current focused element in console.
+During debugging a page, sometimes it is very hard to notice which element is focusing in the page. This extension will highlight the focusing element and log it in console. Even after turn off the extension, the developer can hover on the element in console to find back the element in DOM structure.
 
 ## Install
 

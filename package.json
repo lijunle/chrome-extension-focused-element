@@ -13,8 +13,8 @@
   "devDependencies": {
     "@types/chrome": "0.0.122",
     "bestzip": "^2.1.7",
-    "eslint": "^5.16.0",
-    "eslint-config-prettier": "^4.3.0",
+    "eslint": "^7.8.1",
+    "eslint-config-prettier": "^6.11.0",
     "husky": "^1.3.1",
     "prettier": "^1.19.1",
     "pretty-quick": "^1.11.1",
@@ -33,7 +33,6 @@
       "chrome": "readonly"
     },
     "rules": {
-      "max-lines-per-function": "off",
       "no-console": "off",
       "sort-keys": "off",
       "strict": "off"

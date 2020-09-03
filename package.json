@@ -35,7 +35,8 @@
     "rules": {
       "max-lines-per-function": "off",
       "no-console": "off",
-      "sort-keys": "off"
+      "sort-keys": "off",
+      "strict": "off"
     }
   },
   "husky": {

@@ -16,7 +16,6 @@ The [Focused Element](https://chrome.google.com/webstore/detail/focused-element/
 3. In browser extension page, load unpack and choose this project folder.
 4. Make sure the following scripts are passed.
    - `npm run build`
-   - `npm run lint`
    - `npm run format`
 
 ## License

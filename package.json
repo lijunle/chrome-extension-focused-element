@@ -6,37 +6,16 @@
   },
   "scripts": {
     "build": "tsc",
-    "lint": "eslint --format unix .",
     "format": "prettier --write *",
     "pack": "bestzip focused-element.zip manifest.json lib/* icons/*"
   },
   "devDependencies": {
     "@types/chrome": "0.0.122",
     "bestzip": "^2.1.7",
-    "eslint": "^7.8.1",
-    "eslint-config-prettier": "^6.11.0",
     "husky": "^4.2.5",
     "prettier": "^2.1.1",
     "pretty-quick": "^3.0.0",
     "typescript": "^4.0.2"
-  },
-  "eslintConfig": {
-    "extends": [
-      "eslint:all",
-      "prettier"
-    ],
-    "env": {
-      "es6": true,
-      "browser": true
-    },
-    "globals": {
-      "chrome": "readonly"
-    },
-    "rules": {
-      "no-console": "off",
-      "sort-keys": "off",
-      "strict": "off"
-    }
   },
   "husky": {
     "hooks": {

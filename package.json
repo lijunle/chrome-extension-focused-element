@@ -6,7 +6,8 @@
   },
   "scripts": {
     "build": "tsc",
-    "format": "prettier --write *",
+    "format": "prettier --write **/*",
+    "format-check": "prettier --check **/*",
     "pack": "bestzip focused-element.zip manifest.json lib/* icons/*"
   },
   "devDependencies": {

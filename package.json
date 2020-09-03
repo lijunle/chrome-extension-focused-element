@@ -11,7 +11,7 @@
     "pack": "bestzip focused-element.zip manifest.json lib/* icons/*"
   },
   "devDependencies": {
-    "@types/chrome": "0.0.83",
+    "@types/chrome": "0.0.122",
     "bestzip": "^2.1.7",
     "eslint": "^5.16.0",
     "eslint-config-prettier": "^4.3.0",

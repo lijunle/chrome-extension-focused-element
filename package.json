@@ -8,19 +8,15 @@
     "build": "tsc",
     "format": "prettier --write **/*",
     "format-check": "prettier --check **/*",
-    "pack": "bestzip focused-element.zip manifest.json lib/*.js icons/*.png"
+    "pack": "bestzip focused-element.zip manifest.json lib/*.js icons/*.png",
+    "prepare": "husky"
   },
   "devDependencies": {
     "@types/chrome": "^0.1.31",
     "bestzip": "^2.1.7",
-    "husky": "^4.2.5",
+    "husky": "^9.1.7",
     "prettier": "^2.1.1",
     "pretty-quick": "^3.0.0",
     "typescript": "^5.9.3"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "pretty-quick --staged"
-    }
   }
 }

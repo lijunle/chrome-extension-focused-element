@@ -37,3 +37,9 @@ jobs:
 
       - name: Pack
         run: npm run pack
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: focused-element
+          path: focused-element.zip

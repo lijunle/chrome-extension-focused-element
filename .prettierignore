@@ -1,1 +1,6 @@
-*.png
+.gitattributes
+.gitignore
+.husky
+.prettierignore
+icons
+screenshots
